@@ -1,12 +1,59 @@
-# React + Vite
+# 📰 HackNews
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HackNews is a sleek web app that delivers curated tech and hackathon-related news. Built using **React** and **Vite**, it features a responsive design and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+Check out the live project here:  
+👉 [https://hacknews-b9blkdcz8-gayathri-k-binoys-projects.vercel.app/#home](https://hacknews-b9blkdcz8-gayathri-k-binoys-projects.vercel.app/#home)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Vite**
+- **CSS**
+- **Vercel** (Deployment)
+
+---
+
+## 📁 Project Structure
+src/
+├── assets/
+│ └── react.svg
+├── components/
+│ ├── HackathonX.jsx
+│ └── HackathonX.css
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+
+---
+
+## ▶️ Getting Started
+
+1. Clone the repo  
+   `git clone https://github.com/Gayathri-K-Binoy/HackNews.git`
+
+2. Install dependencies  
+   `npm install`
+
+3. Start the dev server  
+   `npm run dev`
+
+4. Build for production  
+   `npm run build`
+
+---
+
+## ✍️ Author
+
+Made with 💻 by **Gayathri K Binoy**  
+GitHub: [@Gayathri-K-Binoy](https://github.com/Gayathri-K-Binoy)
+
+

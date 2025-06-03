@@ -667,3 +667,55 @@ body {
     font-family: Open Sans, ui-sans-serif, system-ui, sans-serif;
     font-size: 16px;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 80px; /* Increased for better desktop spacing */
+}
+
+/* FIXED: Proper scroll-margin-top for mobile screens */
+@media (max-width: 767px) {
+  section[id] {
+    scroll-margin-top: 120px; /* Increased significantly for mobile header */
+  }
+}
+
+/* Alternative approach - if you know your exact header heights */
+/*
+@media (max-width: 767px) {
+  section[id] {
+    scroll-margin-top: calc(var(--mobile-header-height, 60px) + 10px);
+  }
+}
+
+@media (min-width: 768px) {
+  section[id] {
+    scroll-margin-top: calc(var(--desktop-header-height, 70px) + 10px);
+  }
+}
+*/
+
+/* Additional mobile menu improvements */
+@media (max-width: 767px) {
+  /* Ensure mobile menu links have proper touch targets */
+  .mobile-menu a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+  }
+  
+  /* Prevent horizontal scroll on mobile */
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Optional: Add smooth scrolling with offset for better UX */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

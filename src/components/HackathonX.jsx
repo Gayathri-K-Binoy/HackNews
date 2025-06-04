@@ -238,8 +238,8 @@ export const HackathonX = () => {
         </section>
 
         <section id="register" className="px-8 py-20">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Choose Your Registration</h2>
+          <div className="text-center mb-4">
+            <h2 className="text-4xl font-bold mb-3">Choose Your Registration</h2>
             <p className="text-xl text-gray-600">Select the registration type that applies to you</p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -314,11 +314,11 @@ export const HackathonX = () => {
 
         <section id="guidelines" className="px-8 py-20 bg-gradient-to-r from-primary-50 to-blue-50">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4">Hackathon Guidelines</h2>
-              <p className="text-xl text-gray-600">Everything you need to know to participate</p>
+            <div className="text-center mb-3">
+              <h2 className="text-4xl font-bold mb-4 ">Hackathon Guidelines</h2>
+              <p className="text-xl text-gray-600  ">Everything you need to know to participate</p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
                   <span className="material-symbols-outlined text-primary-600">group</span>

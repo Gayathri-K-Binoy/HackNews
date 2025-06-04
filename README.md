@@ -7,7 +7,7 @@ HackNews is a sleek web app that delivers curated tech and hackathon-related new
 ## 🚀 Live Demo
 
 Check out the live project here:  
-👉 [https://hacknews-30yadog9l-gayathri-k-binoys-projects.vercel.app/](https://hacknews-30yadog9l-gayathri-k-binoys-projects.vercel.app/)
+👉 [https://hacknews-fdmlwumnn-gayathri-k-binoys-projects.vercel.app/](https://hacknews-fdmlwumnn-gayathri-k-binoys-projects.vercel.app/)
 
 ---
 
